@@ -1,0 +1,11 @@
+[package]
+name = "sokoban"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gameshell_base = { path = "./base" }
+chrono = "0.4.19"
+lazy_static = "1.4.0"
+sdl2 = { version = "0.35.2", default-features = false, features = ["image", "unsafe_textures", "mixer"] }
+specs = { version = "0.18.0", features = ["specs-derive"] }
